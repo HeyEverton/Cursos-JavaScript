@@ -76,13 +76,80 @@
    //document.getElementById("titulo").innerHTML = "Agora beba. imediatamente."
 //}
 
-function digitou(e) {
-   if(e.keyCode == 13) {
-    
-   }
+//function digitou(e) {
+//   if(e.keyCode == 13 && e.ctrlKey == true) {
+//    let texto = document.getElementById("campo").value;
+//    console.log("texto");
+//   }
+//}
+
+//function azul(){
+//    limpar();
+//    document.getElementById("titulo").classList.add('azul');
+//}
+//function vermelho() {
+//    limpar();
+//    document.getElementById("titulo").classList.add('vermelho');
+//}
+//function verde() {
+//    limpar();
+//    document.getElementById("titulo").classList.add('verde');
+//}
+//function limpar() {
+//    document.getElementById("titulo").classList.remove("azul")
+//    document.getElementById("titulo").classList.remove("vermelho")
+//    document.getElementById("titulo").classList.remove("verde")
+//}
+//
+//function mostrarTelefone(elemento) {
+//    //tirar();
+//    elemento.style.display = "none";
+//    document.getElementById("telefone").style.display = "block";
+//
+//}
+//function tirar() {
+//    document.getElementById("telefone").style.display = "none";
+//}
+
+
+//et carros = ['Palio', 'Civic', 'Toyota Supra Mk11','Trueno', 'Mazda RX7' ];
+
+//onsole.log(carros)
+
+
+//let carro = {
+//    nome: 'Toyota',
+//    modelo: 'Supra',
+//    ano: '2017',
+//    ligado: false,
+//    ligar:function() {
+//      this.ligado = true;
+//        console.log("VRUM VRUM");
+//    },
+//    acelerar:function() {
+//        if(this.ligado == true) {
+//        console.log("Riiiiiiiiiiih!");
+//        }
+//    }
+//    
+//};
+//console.log("Modelo:"+carro.modelo)
+//
+//carro.ligar();
+//carro.acelerar();
+
+
+
+function menuToggle() {
+    let menuArea = document.getElementById("menu-area");
+
+    if(menuArea.style.width == '200px') {
+        menuArea.style.width ='0px';
+    } else {
+        menuArea.style.width = '200px';
+    }
+
 }
-
-
 
 
 
