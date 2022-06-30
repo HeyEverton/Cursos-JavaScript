@@ -140,16 +140,110 @@
 
 
 
-function menuToggle() {
-    let menuArea = document.getElementById("menu-area");
+//function menuToggle() {
+//    let menuArea = document.getElementById("menu-area");
+//
+//    if(menuArea.style.width == '200px') {
+//        menuArea.style.width ='0px';
+//    } else {
+//        menuArea.style.width = '200px';
+//    }
+//
+//}
 
-    if(menuArea.style.width == '200px') {
-        menuArea.style.width ='0px';
-    } else {
-        menuArea.style.width = '200px';
-    }
+//let dia = 4;
+//let diaNome = '';
+//
+//switch(dia) {
+//    case 6:
+//    case 7:
+//        diaNome = 'Final de semana';
+//        break;
+//    default:
+//        diaNome = 'Dia de Semana';
+//        break;
 
-}
+
+
+   //case 1:
+   //    diaNome = 'Segunda-Feira'
+   //    break;
+   //case 2:
+   //    diaNome = 'Terça-Feira'
+   //    break;
+   //case 3:
+   //    diaNome = 'Quarta-Feira'
+   //    break;
+   //case 4:
+   //    diaNome = 'Quinta-Feira'
+   //    break;
+   //case 5:
+   //    diaNome = 'Sexta-Feira'
+   //    break;
+   //case 6:
+   //    diaNome = 'Sábado'    
+   //    break;
+   //case 7:
+   //    diaNome = 'Domingo'
+   //    break;
+
+
+//}
+//document.getElementById("dia").innerHTML = "Hoje é: "+diaNome;
+
+
+
+
+
+//FOR LOOP
+//FOR LOOP ARRAY
+//let carros = ['Ferrari', 'Lamborghini', 'Mercedes', 'Supra','Mazda RX7'];
+//
+//let html = '<ul>';
+//
+//for(let i in carros) {
+//    html += '<li>'+ carros[i] +'</li>';
+//}
+//
+//
+//html += '</ul>';
+//document.getElementById("demo").innerHTML = html;
+//let texto = '';
+//for(let i = 0; i <= 10; i++) {
+//    texto = texto + i + '<br/>';
+
+//}
+
+//let html = '';
+//
+//
+//let c = 0;
+//while(c <= 10) {
+//    html += "Número: "+c+"<br/>";
+//    c++;
+//
+//}
+//for(let c = 1;c <= 10;c++) {
+//    html += "Número: "+c+"<br/>";
+//}
+//
+//document.getElementById("demo").innerHTML = html;
+//var n = 0;
+//
+//while (n < 16) { //enquanto n for menor que 16 a condição não será satisfeita//
+// n++;
+//}
+//
+//console.log(n);
+
+
+
+
+
+
+
+
+
 
 
 
