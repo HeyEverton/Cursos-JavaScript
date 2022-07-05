@@ -127,11 +127,77 @@ for(let i in lista) {
 //let [ nomeComleto, nome, sobrenome, instagram ] = info;
 //
 //console.log(nomeComleto, nome, sobrenome, instagram);
+//let [nome, sobrenome] = ['Everton', 'Henrique'];
+
+//console.log(nome, sobrenome);
+
+/*function somar (x, y) {
+    return x + y;
+}*/
+//let somar = function(x, y) {
+//    return x + y;
+//}
+
+/*let somar = (x, y) => {
+    return x + y
+}*/
+//let somar = (x, y) => x+y;
+//let letrasNoNome = nome => nome.length;
+//console.log(letrasNoNome('Everton'));
+//let numeros = [1,2,3,4];
+//let outros = [...numeros,5,6,7,8];
+//console.log(outros);
+//let info = {
+//    nome: 'Everton',
+//    sobrenome: 'Henrique',
+//    idade: 90
+//};
+//let novaInfo = {
+//    ...info,
+//    cidade: 'João Pessoa',
+//    estado: 'Paraiba',
+//    pais: 'Brasil'
+//};
+//console.log(novaInfo);
+//function adicionarInfo(info) {
+//    let novasInfo ={
+//        ...info, //OPERADOR SPREAD
+//        status: 0,
+//        token:'Exemplo',
+//        data_cadastro: 'Teste'
+//    };
+//    
+//    return novasInfo
+//}
+//
+//console.log(adicionarInfo ({nome: 'Everton', sobrenome:'Henrique'}));
+//function add(...numeros) {  //OPERADOR REST
+//    console.log(numeros);
+//
+//};
+// add(6,7,5,4,5,7);
+
+//let lista = ['ovo', 'café', 'arroz', 'macarrão', 'feijão'];
+//console.log( lista.includes('ovo') );
+//console.log( 'everton'.repeat(20) );
+//let pessoa = {
+//    nome: 'Everton',
+//    sobrenome: 'Henrique',
+//    idade: 90
+//};
+//
+//
+//
+//console.log( Object.entries(pessoa) );
+//let cartao = '1234123412341234';
+//let lastDigits = cartao.slice(-4);
+//let cartaoMascarado= lastDigits.padStart (16, '*');
+//console.log('Este é o seu cartão? '+cartaoMascarado );
 
 
-let [nome, sobrenome] = ['Everton', 'Henrique'];
 
-console.log(nome, sobrenome);
+
+
 
 
 
