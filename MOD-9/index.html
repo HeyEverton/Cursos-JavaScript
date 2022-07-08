@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <title>Projeto Slideshow</title>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container-fluid">
+                  <a class="navbar-brand " href="#">
+                    <img src="images/logo2.png" style="width:50px ;" alt="">
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active m" aria-current="page" href="#" >Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Quem somos</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Loja
+                        </a>
+                        <ul class="dropdown-menu " aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Pranchas</a></li>
+                          <li><a class="dropdown-item" href="#">Campeonatos</a></li>
+                          <li class="dropdown-divider"></li>
+                          <li><a class="dropdown-item " href="#">Notícias <span class="badge bg-primary">Novas</span></a></li>
+                          
+                          
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link disabled">Contato</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex">
+                      <input class="form-control me-2" type="search" placeholder="Procurando por..." aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit"><i class="bi bi-search"></i></button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+        </div>
+        <div class="slider">
+            <div class="slider--controls">
+                <div class="slider--control" onclick="goPrev()"> <i class="bi bi-arrow-left"></i></div>
+                <div class="slider--control" onclick="goNext()"> <i class="bi bi-arrow-right"></i> </div>
+            </div>
+            
+            <div class="slider--width">
+                <div class="slider--item" style="background-image: url(images/1.jpg) ;">
+                    Viva o Surf
+                </div>
+                <div class="slider--item" style="background-image:url(images/2.jpg) ;">
+                    O mar é incrível
+                </div>
+                <div class="slider--item" style="background-image:url(images/3.jpg) ;">
+                    Tá tirando uma onda?
+                </div>
+            </div>
+
+        </div>
+    </header>
+    <section class="bg-surf">
+        <h1 class=" text-center">Nossas Pranchas</h1>
+      
+
+        <div class="container mt-5">
+          <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
+            <div class="col">
+              <div class=" bg-light">
+                <figure class="figure">
+                  <img src="images/prancha.jpg" class="figure-img img-fluid rounded" alt="...">
+                  <figcaption class="figure-caption text-center fs-4 text-dark ball">Nimbus 2000</figcaption>
+                </figure>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class=" bg-light">
+                <figure class="figure">
+                  <img src="images/prancha.jpg" class="figure-img img-fluid rounded" alt="...">
+                  <figcaption class="figure-caption text-center fs-4 text-dark ball">Nimbus 2000</figcaption>
+                </figure>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class=" bg-light">
+                <figure class="figure">
+                  <img src="images/prancha.jpg" class="figure-img img-fluid rounded" alt="...">
+                  <figcaption class="figure-caption text-center fs-4 text-dark ball">Nimbus 2000</figcaption>
+                </figure>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class=" bg-light">
+                <figure class="figure">
+                  <img src="images/prancha.jpg" class="figure-img img-fluid rounded" alt="...">
+                  <figcaption class="figure-caption text-center fs-4 text-dark ball">Nimbus 2000</figcaption>
+                </figure>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class=" bg-light">
+                <figure class="figure">
+                  <img src="images/prancha.jpg" class="figure-img img-fluid rounded" alt="...">
+                  <figcaption class="figure-caption text-center fs-4 text-dark ball">Nimbus 2000</figcaption>
+                </figure>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class=" bg-light">
+                <figure class="figure">
+                  <img src="images/prancha.jpg" class="figure-img img-fluid rounded" alt="...">
+                  <figcaption class="figure-caption text-center fs-4 text-dark ball">Nimbus 2000</figcaption>
+                </figure>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class=" bg-light">
+                <figure class="figure">
+                  <img src="images/prancha.jpg" class="figure-img img-fluid rounded" alt="...">
+                  <figcaption class="figure-caption text-center fs-4 text-dark ball">Nimbus 2000</figcaption>
+                </figure>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class=" bg-light">
+                <figure class="figure">
+                  <img src="images/prancha.jpg" class="figure-img img-fluid rounded" alt="...">
+                  <figcaption class="figure-caption text-center fs-4 text-dark ball">Nimbus 2000</figcaption>
+                </figure>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class=" bg-light">
+                <figure class="figure">
+                  <img src="images/prancha.jpg" class="figure-img img-fluid rounded" alt="...">
+                  <figcaption class="figure-caption text-center fs-4 text-dark ball">Nimbus 2000</figcaption>
+                </figure>
+              </div>
+            </div>
+
+            <div class="col mb-5">
+              <div class=" bg-light">
+                <figure class="figure">
+                  <img src="images/prancha.jpg" class="figure-img img-fluid rounded" alt="...">
+                  <figcaption class="figure-caption text-center fs-4 text-dark ball">Nimbus 2000</figcaption>
+                </figure>
+              </div>
+            </div>
+
+          
+            
+          </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark">
+      
+        <span class="text-light text-center d-flex justify-content-center align-items-cente">
+          &copy; 2022 All rights reserved
+        </span>
+        <span class="text-light d-flex justify-content-center fs-4">
+          <a target="_blank" href="https://www.instagram.com/e.henrique9/"><i class=" text-light me-2 bi bi-instagram"></i></a>
+          <a target="_blank" href="#"><i class="text-light me-2 bi bi-youtube"></i></a>
+          <a target="_blank" href="#"><i class="text-light bi bi-linkedin"></i></a>
+        </span>
+         
+        
+    </footer>
+
+
+
+
+    
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
